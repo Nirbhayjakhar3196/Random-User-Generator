@@ -5,7 +5,7 @@ const userCountry = document.getElementById('user-country')
 const userAge = document.getElementById('user-age')
 const btn = document.getElementById('btn')
 const userGender = document.getElementById('user-gender')
-const themebtn = document.getElementById('theme-btn')
+const themeBtn = document.getElementById('theme-btn')
 
 async function getData() {
 
@@ -45,15 +45,18 @@ async function getData() {
     
 }
 
-themebtn.addEventListener('click', () => {
+themeBtn.addEventListener('click', () => {
     document.body.classList.toggle('dark')
     if(document.body.classList.contains("dark")){
 
       themeBtn.textContent = "Light Mode";
+    //   localStorage.setItem("theme", "dark");
+
 
    }else{
 
       themeBtn.textContent = "Dark Mode";
+    //   localStorage.setItem("theme", "light");
 
    }
 })
@@ -61,5 +64,9 @@ themebtn.addEventListener('click', () => {
 btn.addEventListener('click', () => {
     getData()
 })
-
+// const savedTheme = localStorage.getItem("theme");
+// if(savedTheme === "dark"){
+//     document.body.classList.add("dark")
+//     themeBtn.textContent = "Light Mode";
+// }
 getData()
