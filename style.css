@@ -72,3 +72,17 @@ button:hover{
 .card:hover{
   transform: translateY(-5px);
 }
+
+.dark{
+   background: #222121;
+}
+
+.dark .card{
+   background: #1e1e1e;
+
+   color: white;
+}
+
+.dark p{
+   color: #ccc;
+}

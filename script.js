@@ -5,6 +5,7 @@ const userCountry = document.getElementById('user-country')
 const userAge = document.getElementById('user-age')
 const btn = document.getElementById('btn')
 const userGender = document.getElementById('user-gender')
+const themebtn = document.getElementById('theme-btn')
 
 async function getData() {
 
@@ -44,8 +45,21 @@ async function getData() {
     
 }
 
+themebtn.addEventListener('click', () => {
+    document.body.classList.toggle('dark')
+    if(document.body.classList.contains("dark")){
+
+      themeBtn.textContent = "Light Mode";
+
+   }else{
+
+      themeBtn.textContent = "Dark Mode";
+
+   }
+})
 
 btn.addEventListener('click', () => {
     getData()
 })
+
 getData()
