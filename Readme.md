@@ -15,6 +15,7 @@ This project fetches real random user data from an API and dynamically updates t
 ✅ Interactive button hover effects  
 ✅ Smooth card hover animation  
 ✅ Responsive and clean UI  
+✅ Dark Mode
 
 ---
 
@@ -198,7 +199,6 @@ finally{
 
 Planned upgrades for the project:
 
-- 🌙 Dark Mode
 - 📋 Copy Email Button
 - ❤️ Save Favorite Users
 - 👥 Multiple User Cards
@@ -222,7 +222,7 @@ Through this project, I learned:
 ---
 
 ## 🚀Live Demo
-https://random-user-generator-murex-pi.vercel.app/
+https://random-user-generator-nrpt.vercel.app/
 
 # 👨‍💻 Author
 
