@@ -4,6 +4,7 @@ const userEmail = document.getElementById('user-email')
 const userCountry = document.getElementById('user-country')
 const userAge = document.getElementById('user-age')
 const btn = document.getElementById('btn')
+const userGender = document.getElementById('user-gender')
 
 async function getData() {
 
@@ -27,8 +28,9 @@ async function getData() {
         userEmail.textContent = user.email
         userCountry.textContent = user.location.country
         userAge.textContent = `${user.dob.age}
-        `
         
+        `
+        userGender.textContent = user.gender
         
     } catch (error) {
         userName.textContent = "Failed to fetch user.."
