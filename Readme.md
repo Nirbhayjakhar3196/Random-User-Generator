@@ -222,7 +222,7 @@ Through this project, I learned:
 ---
 
 ## 🚀Live Demo
-
+https://random-user-generator-murex-pi.vercel.app/
 
 # 👨‍💻 Author
 
