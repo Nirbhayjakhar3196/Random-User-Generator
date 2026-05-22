@@ -222,7 +222,7 @@ Through this project, I learned:
 ---
 
 ## 🚀Live Demo
-https://random-user-generator-nrpt.vercel.app/
+https://random-user-generator-hsvo.vercel.app/
 
 # 👨‍💻 Author
 
