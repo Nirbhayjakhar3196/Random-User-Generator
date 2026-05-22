@@ -50,13 +50,13 @@ themeBtn.addEventListener('click', () => {
     if(document.body.classList.contains("dark")){
 
       themeBtn.textContent = "Light Mode";
-    //   localStorage.setItem("theme", "dark");
+      localStorage.setItem("theme", "dark");
 
 
    }else{
 
       themeBtn.textContent = "Dark Mode";
-    //   localStorage.setItem("theme", "light");
+      localStorage.setItem("theme", "light");
 
    }
 })
@@ -64,9 +64,9 @@ themeBtn.addEventListener('click', () => {
 btn.addEventListener('click', () => {
     getData()
 })
-// const savedTheme = localStorage.getItem("theme");
-// if(savedTheme === "dark"){
-//     document.body.classList.add("dark")
-//     themeBtn.textContent = "Light Mode";
-// }
+const savedTheme = localStorage.getItem("theme");
+if(savedTheme === "dark"){
+    document.body.classList.add("dark")
+    themeBtn.textContent = "Light Mode";
+}
 getData()
